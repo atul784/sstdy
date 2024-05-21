@@ -1,0 +1,24 @@
+.nine-intro{
+        padding: 5px; 
+        font-size: 20px;
+    }
+    .bo{
+        margin-top: 20px;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .inbo{
+        height:200px;
+        width: 300px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    

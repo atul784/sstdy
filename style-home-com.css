@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    margin-top: 20px;
+    display: flex;
+    gap: -10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nav{
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: rgb(146, 55, 55);;
+    display: flex;
+    flex-direction: row;
+    
+}
+.hms{
+    margin-top: 4px;
+    padding: 10px;
+    height: 37px;
+    width: 60px;
+    cursor: pointer;
+}
+.line{
+    background-color:white;
+    border-radius: 5px;
+    display: block;
+    height: 5px;
+    width: 100%;
+    transition:0.3s ease ;
+    cursor: pointer;
+    z-index: 100;
+    border: 1px solid black;
+}
+#line-1{
+    transform: translateY(-4px);
+}
+#line-3{
+    transform: translateY(4px);
+}
+.text-1{
+    margin-left: 100px;
+    padding-top:10px ;
+    display:flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.log{
+    margin-bottom: -30px;
+padding-bottom: -30px;
+text-decoration: none;
+color: white;
+}
+#line-1{
+    transform: translateY(-4px);
+}
+#line-3{
+    transform: translateY(4px);
+}
+.change .line{
+    padding-top:2px;
+    background-color:black;
+}
+.change #line-1{
+    transform: translateY(1px) rotate(-45deg);
+}
+.change #line-2{
+display: none;
+}
+.change #line-3{
+    transform: translateY(-4px) rotate(45deg);
+}
+
+
+
+.hidek{
+    padding-top:20px ;
+    display:none;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+ul{
+    list-style: none;
+}
+.in-list{
+    margin-bottom: 6px;
+    margin-top: 8px;
+}
+.in-link{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    border: 1px solid;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+    transition: 0.3s ease;    
+}
+.in-link:hover{
+    background-color:rgba(200, 112, 112, 0.545) ;
+    
+}
+
+li{
+text-decoration: none;
+}
+.ggd{
+    display: block;
+    }
+.sideth{
+    display: none;
+    width: 30%;
+    height: 100vh;
+    margin-left: -60px;
+    color: white;
+    background-color:rgb(146, 55, 55);
+    margin-top:40px;
+    text-align: center;
+    padding-top:40px ;
+    z-index: 1;
+}
+.sidethon{
+    display: block;
+    width: 30%;
+    height: 100vh;
+    color:white;
+}
+
+.sidesevon{
+    margin-left:30% ;
+    display: block;
+}
+.kkm{
+    display:none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.kkr{
+    display:block;
+}
+.increase-gap{
+    padding:10px
+}
+.bgc{
+    display: none;
+}
+.ccc{
+    background-color:white ;
+}
+.main-link{
+color: white;
+text-decoration: none;
+transition: 0.3 ease;
+font-size: 18px;
+}
+.main-link:hover{
+    font-size: 20px;
+}
+.foot{
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    padding: 5px;
+    justify-content: end;
+    display: block;
+    align-content: end;
+}
+.footoo{
+    margin-left: 30%;
+    display: none;
+}
+.foot-link{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}    
+    .foot-text{
+        font-size: 25px;
+        color: white;
+    }
+    
