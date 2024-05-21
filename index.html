@@ -1,30 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>RoboPage</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="style-home-com.css">
 </head>
 <body>
-	<h1>Robot Friend</h1>
-	<div class="robots">
-		<div class="android"> 
-			<div class="head"> 
-				<div class="eyes"> 
-					<div class="left_eye"></div> 
-					<div class="right_eye"></div>
-				</div> 
-			</div> 
-			<div class="upper_body"> 
-				<div class="left_arm"></div> 
-				<div class="torso"></div> 
-				<div class="right_arm"></div> 
-			</div> 
-			<div class="lower_body"> 
-				<div class="left_leg"></div> 
-				<div class="right_leg"></div> 
-			</div> 
-		</div>
-	</div>
+
+
+    <header>
+        <center><h1><img src="" alt="Knoweldge">Padho Aur Badho</h1>
+        <br>
+        <h3>Student's let study smartly....</h3>
+        </center>
+        </header>
+
+        <br>
+        <center><p>Babu</p></center>
+
+        <br>
+
+
+
+<div class="nav" id="nav">
+
+    <div class="hms-side">
+
+    <div class="hms"  id="hms" onclick="hums()">
+        <div class="line"  id="line-1"></div>
+        <div class="line" id="line-2"></div>
+        <div class="line" id="line-3"></div>
+    </div>
+
+</div>
+
+<div class="sideth" id="sideth">
+<ul>
+    <li class="increase-gap"><a href="#" onclick="ck()" class="main-link">Class </a>
+        <ul id="hidek" class="hidek">
+    <li class="in-list"><a href="nine-class.html" class="in-link">9 <sup>th</sup></a></li>
+    <li class="in-list"><a href="" class="in-link">10 <sup>th</sup></a></li>
+    <li class="in-list"><a href="" class="in-link">11 <sup>th</sup></a></li>
+    <li class="in-list"><a href="" class="in-link">12 <sup>th</sup></a></li>
+        </ul>
+    </li>
+
+            <li class="increase-gap"><a href="#" onclick="vky()" class="main-link">Competative Exam</a>
+        <ul class="kkm" id="kkm">
+            <li class="in-list"><a href="" class="in-link">Jee </a></li>
+            <li class="in-list"><a href="" class="in-link">Neet</a></li>
+            <li class="in-list"><a href="" class="in-link">Cuet</a></li>
+            <li class="in-list"><a href="" class="in-link">SSC</a></li>
+            <li class="in-list"><a href="" class="in-link">IIM</a></li>
+        </ul>
+    </li>
+
+    <li class="increase-gap"><a href=""></a></li>
+    <li class="increase-gap"><a href=""></a></li>
+    <li class="increase-gap"><a href=""></a></li>
+    <li class="increase-gap"><a href=""></a></li>
+</ul>
+</div>
+
+
+    <div class="text-1" id="text-1">
+    <a href="Home.html"><input type="button" value="Home"></a>
+        <span>KBP</span>
+        <input type="search" name="" id="">
+        <a href="#" class="log"> Log Out</a>
+    </div>
+</div>
+
+
+
+<br><br><br>
+
+<div class="sidesev" id="sidesev">
+    <div class="bo">
+        <span class="color-tt">Welcome to KPB.com!</span><br>
+        <span class="tt-10">Aptitude Question and answer for your placement interviews and competitive exam!</span>
+        <br><br>
+        <div class="box">
+            <div class="inbo">
+                <center><h2>Books and Notes</h2></center>
+            </div>
+            <div class="inbo"></div>
+            <div class="inbo"></div>
+            <div class="inbo"></div>
+            <div class="inbo"></div>
+            <div class="inbo"></div>
+            <div class="inbo"></div>
+            <div class="inbo"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <footer id="foot">
+        <center>
+            <div class="foot">
+                <h3>
+            <a href="#" class="foot-link">Contact Us</a>
+            <a href="#" class="foot-link">Copyright</a>
+            <a href="#" class="foot-link">Privacy Policy</a>
+        </h3>
+        <br>
+        <p>@KPB<sup>tm</sup> Techonology</p>
+            </div>
+            
+        </center>
+            
+    </footer>
+    </div>
+    <script>
+         function hums(){
+    document.getElementById("hms").classList.toggle("change");
+    document.getElementById("sideth").classList.toggle("sidethon");
+    document.getElementById("sidesev").classList.toggle("sidesevon");
+    var cc = document.getElementById("nav");
+    var pp =document.getElementById("text-1");
+    cc.classList.toggle("ccc");
+    pp.classList.toggle("bgc");
+    document.getElementById("foot").classList.toogle("foot-ff");
+
+    
+
+         }
+         function ck(){
+            document.getElementById("hidek").classList.toggle("ggd");
+         }
+         function vky(){
+        document.getElementById("kkm").classList.toggle("kkr");
+
+         }
+    </script>
 </body>
 </html>
